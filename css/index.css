@@ -12,11 +12,3 @@ h1 {
 ul {
   display: flex;
 }
-
-address.p {
-  width: 200px;
-  background: #CCC;
-}
-address.right {
-  margin-left: auto;
-}
