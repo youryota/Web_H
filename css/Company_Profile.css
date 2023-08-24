@@ -1,0 +1,119 @@
+@charset 'utf-8';
+
+table {
+    width: 44%;
+    margin: auto;
+    font-size: 20px;
+}
+ .company_name {
+    margin-left: 130px;
+}
+
+.location {
+    margin-left: 100px;
+}
+
+.tel {
+    margin-left: 130px;
+}
+
+.mail {
+    margin-left: 50px;
+}
+
+.anniversary {
+    margin-left: 110px;
+}
+
+.money {
+    margin-left: 170px;
+}
+
+div {
+    margin-left: 100px;
+}
+
+
+
+.service {
+    margin-left: 65px;
+}
+
+
+.service2 {
+    margin-left: 185px;
+}
+
+.construction {
+    margin-left: 80px;
+}
+
+.Qualification {
+    margin-left: 75px;
+}
+
+
+.Qualification2 {
+    margin-left: 180px;
+}
+
+.transaction {
+    margin-left: 75px;
+}
+
+.transaction2 {
+    margin-left: 180px;
+}
+
+.payment {
+    margin-left: 65px;
+}
+
+.payment2 {
+    margin-left: 170px;
+}
+
+.history {
+    margin-left: 125px;
+}
+
+.history2 {
+    margin-left: 170px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.photo {
+    object-fit: cover;
+    width: 275px;
+    height: 320px;
+}
+
+.employee {
+    display: flex;
+    margin: auto;
+    justify-self: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.employee p:nth-of-type(1) {
+    font-size: 30px;
+    position: absolute;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.employee p:nth-of-type(2) {
+    font-size: 30px;
+    position: absolute;
+    width: 80%;
+    left: 20%;
+    top: 75%;
+}
+
+
+
