@@ -1,0 +1,183 @@
+@charset 'utf-8';
+
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+
+#recurit .title2 {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    position: relative;
+}
+
+#recruit .subtitle {
+    font-size: 30px;
+    margin-left:190px;
+    margin-top: 2px;
+}
+
+
+#recruit .black_box {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    transform: translateY(120%);
+    margin-left: 130px;
+}
+
+
+
+td{
+    border:1px #333 solid; 
+    padding:8px 16px;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    height: 1069px;
+}
+
+.table_title {
+    text-align: center;
+    font-size: 35px;
+    width: 200px;
+    background-color: #E6E3E3;
+}
+
+.table_title_font {
+    width: 761px;
+    font-size: 25px;
+}
+
+.button {
+    display: inline-block;
+    font-size     : 18pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 100px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : #000000;     /* 文字色     */
+    border        : 1px solid #000000;    /* 枠の指定 */
+
+    text-decoration: none;
+    
+}
+
+#recruit .box {
+    margin: 40px;
+    display: flex; /* 縦に並ぶものを横に*/
+    justify-content: center; /* 中央ぞろえにする*/
+    position: relative; /*アブソリュートで動かす要素の基準を指定する */
+}
+
+#recruit .box a:nth-of-type(2) {
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);   
+}
+
+#recurit2 .title2 {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    position: relative;
+}
+
+#recruit2 .subtitle {
+    font-size: 63px;
+    margin-left:230px;
+}
+
+
+#recruit2 .black_box {
+    width: 56px;
+    height: 56px;
+    background-color: black;
+    transform: translateY(120%);
+    margin-left: 130px;
+}
+
+
+#recruit2 .box {
+    margin: 40px;
+    display: flex; /* 縦に並ぶものを横に*/
+    justify-content: center; /* 中央ぞろえにする*/
+    position: relative; /*アブソリュートで動かす要素の基準を指定する */
+}
+
+#recruit2 .box a:nth-of-type(2) {
+    position: absolute; 
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);   
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 20px; }
+  
+  .site-header {
+    position: relative;
+    background-color: #def7ff; }
+  
+  .site-header__wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    @media (min-width: 600px) {
+      .site-header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 0; } }
+  @media (min-width: 600px) {
+    .nav__wrapper {
+      display: flex; } }
+  
+  @media (max-width: 599px) {
+    .nav__wrapper {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      left: 0;
+      z-index: -1;
+      background-color: #d9f0f7;
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-100%);
+      transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
+      .nav__wrapper.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0); } }
+  
+  .nav__item a {
+    display: block;
+    padding: 1.5rem 1rem; }
+  
+  .nav__toggle {
+    display: none; }
+    @media (max-width: 599px) {
+      .nav__toggle {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1rem; } }
+  ul{
+    padding-left:0;
+  }
+        
+  li{
+    list-style:none;
+  }
