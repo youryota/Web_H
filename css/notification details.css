@@ -1,0 +1,47 @@
+.白背景さん {
+    border-style: solid;
+    border-color: black;
+    margin: 30px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 画像 */
+.content img {
+    width: 30%;
+    height: 250px;
+    object-fit: contain;
+    margin-left: 30px;
+
+}
+
+.content p{
+    width: 50%;
+    
+}
+
+
+
+.文字1さん {
+    margin-left: 30px;
+}
+
+.button_1{
+    background: #a5f1ee;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 10px 25px;
+    color: #5911f5;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+

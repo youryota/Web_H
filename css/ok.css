@@ -1,0 +1,40 @@
+
+.ok_doutei {
+    margin: 60px 24px 24px 450px;
+}
+
+span {
+    padding-left: 25px;
+}
+
+.ok_button {
+    background: #a7dcf8;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 10px 25px;
+    color: #99d3f2;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+
+
+.a {
+    position: relative;
+}
+
+.a .raiki1 {
+    position: absolute;
+    left: 0;
+}
+
+.a .raiki2 {
+    position: absolute;
+    right: 0;
+}
+
