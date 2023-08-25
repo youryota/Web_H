@@ -1,0 +1,13 @@
+.border{
+    border: 3px solid #000;
+}
+
+.titlle{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.username{
+    margin-left: 60%;
+}
